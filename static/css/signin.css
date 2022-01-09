@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: #F9F9F9;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	line-height: 1.5;
+	color: #24292e;
+	}
+					
+.top{
+    width:100%;
+}
+
+.top_center{
+    width:310px;
+    height:150px;
+    margin:0 auto;
+}
+
+.logo{
+    width:53px;
+    height:53px;
+    margin:0 auto;
+ 
+}
+		
+.welcome{
+    width:310;
+    margin:0px auto;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    text-align:center;
+}
+
+.main{
+    width:100%;
+
+}
+
+.main_center{
+    width:310px;
+    height:235px;
+    margin:0 auto;
+    background-color:#FFF;
+    border: 1px solid #d8dee2;
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.main_username{
+    width:100%;
+    height:30px;
+
+}
+
+.word{
+    font-size: 16px;
+    font-weight: 700;
+    color:black;
+}
+
+.float_l{
+    float: left;
+}
+
+.float_r{
+    float: right;
+}
+
+.main_input,.main_login{
+    width:100%;
+    height:40px;
+}
+
+.search{
+    height:20px;
+    float:right;
+    margin:0 auto;
+
+}
+
+.button{
+    margin-top:8px;
+    padding:8px 12px;
+    font-size:14px;
+    font-weight:600;
+    line-height:20px;
+    border:1px solid rgba(27,31,35,0.2);
+    width:248px;
+    background-color:#269f42;
+    background-image: linear-gradient(-180deg,#34d058 0%,#28a745 90%);
+    border-radius: 0.25em;
+    text-align:center;
+
+}
+
+.foot{
+    margin-top:20px;
+    width:100%;
+    height:100px;
+
+}
+.foot_center{
+    width:310px;
+    height:90px;
+    margin:0 auto;
+    background-color:#F9F9F9;
+
+}
+
+.foot_top{
+    width:310px;
+    height:50px;
+    background-color:#F9F9F9;
+    color:#0366D6;
+    border:1px solid #D8DEE2;
+    border-radius: 0.25em;
+    text-align:center;
+}
+
+.word1{
+    width:150px;
+    text-align:center;
+    color:#D8DEE2;
+    margin-top:10px;
+}
+
+.word2{
+    width:150px;
+    text-align:center;
+    color: aqua;
+    margin-top:15px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: -10px;
+}
+
+.foot_tail{
+    width:310px;
+    height:30px;
+    background-color:#F9F9F9;
+    text-align:center;
+    margin:0 auto;
+
+}
+
+.foot_word{
+    margin-top:20px;
+    width:310px;
+    height:30px;
+    text-align:center;
+    font-size:16px;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+}
+
