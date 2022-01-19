@@ -1,11 +1,11 @@
 from flask import Flask
 from flask import request, render_template
-app = Flask(__name__)
+app = Flask(__name__,template_folder="./wwwroot",static_url_path="",static_folder="./wwwroot")
 
 
 @app.route('/')
-def hello_world():  # put application's code here
-   return render_template('index.html')
+def index():
+    return render_template("index.html")
 
 
 
